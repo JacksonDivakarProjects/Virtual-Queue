@@ -39,7 +39,7 @@ class QueueManager:
         for idx, obj_id in enumerate(self.queue):
             self.person_dict[obj_id].priority = idx + 1
 
-    def print_queue(self):a
+    def print_queue(self):
         print("\nCurrent Queue:")
         for obj_id in self.queue:
             print(self.person_dict[obj_id])
